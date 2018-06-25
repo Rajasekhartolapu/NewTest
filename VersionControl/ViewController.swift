@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         
         print(reverse(text: "Sekhar"))
         label.text = reverse(text: "Sekhar")
+        
+        print(label.text)
     }
     
     func reverse(text: String) -> String {
