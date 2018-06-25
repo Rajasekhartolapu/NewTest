@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var obj = "Hello Git"
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
         print(obj)
         
         print(reverse(text: "Sekhar"))
+        label.text = reverse(text: "Sekhar")
     }
     
     func reverse(text: String) -> String {
