@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         label.text = reverse(text: "Sekhar")
         
         print(label.text)
+        
+        print("Done")
     }
     
     func reverse(text: String) -> String {
